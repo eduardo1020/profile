@@ -1,0 +1,384 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1b334e;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+
+#container {
+    background-color: #1b334e;
+
+    /*centraliza o container do perfil*/
+    display: flex;
+    align-items: center;
+}
+
+#perfil {
+    background-color: #fff;
+    box-shadow: 0 0.4em 0.7em #1d1c1c;
+    color: #393939;
+}
+
+#foto img {
+    /*ajusta a imagem dentro da div perfeitamente*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#icon-star {
+    position: absolute;
+    float: left;
+}
+
+#icon-star-label {
+    position: absolute;
+    float: left;
+    color: white;
+}
+
+#icon-email {
+    position: relative;
+    float: left;
+}
+
+#icon-email-label {
+    position: relative;
+    float: left;
+    color: white;
+}
+
+h6 {
+    font-weight: normal;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#info ul {
+    list-style: none;
+}
+
+#social-media {
+    border-top: 1px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 575.98px) {
+    
+    #container {
+        height: 90vh;
+    }
+
+    #perfil {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+
+    #foto {
+        height: 30%;
+    }
+
+    #icon-star {
+        margin-top: -150px;
+        margin-left: 5px;
+    }
+
+    #icon-star-label {
+        margin-top: -120px;
+        margin-left: 10px;
+    }
+
+    #icon-email {
+        margin-top: -70px;
+        margin-left: 10px;
+    }
+
+    #icon-email-label {
+        margin-top: -45px;
+        margin-left: 10px;
+    }
+
+    h6 {
+        font-size: 0.8em;
+    }
+
+    #info {
+        height: 55%;
+        font-size: 1.2em;
+    }
+
+    #info li {
+        padding: 7px;
+    }
+
+    #social-media {
+        height: 15%;
+    }
+
+    #social-media a img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #container {
+        height: 90vh;
+    }
+
+    #perfil {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+
+    #foto {
+        height: 50%;
+    }
+
+    #icon-star {
+        margin-top: -230px;
+        margin-left: 5px;
+    }
+
+    #icon-star-label {
+        margin-top: -200px;
+        margin-left: 10px;
+    }
+
+    #icon-email {
+        margin-top: -150px;
+        margin-left: 10px;
+    }
+
+    #icon-email-label {
+        margin-top: -125px;
+        margin-left: 10px;
+    }
+
+    h6 {
+        font-size: 0.8em;
+    }
+
+    #info {
+        height: 35%;
+        font-size: 0.9em;
+    }
+
+    #info li {
+        padding: 1px;
+    }
+
+    #social-media {
+        height: 15%;
+    }
+
+    #social-media a img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #container {
+        width: 50vw;
+        height: 90vh;
+        margin: 0 auto;
+    }
+
+    #perfil {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+
+    #foto {
+        height: 35%;
+    }
+
+    #icon-star {
+        margin-top: -170px;
+        margin-left: 5px;
+    }
+
+    #icon-star-label {
+        margin-top: -140px;
+        margin-left: 10px;
+    }
+
+    #icon-email {
+        margin-top: -90px;
+        margin-left: 10px;
+    }
+
+    #icon-email-label {
+        margin-top: -65px;
+        margin-left: 10px;
+    }
+
+    h6 {
+        font-size: 0.8em;
+    }
+
+    #info {
+        height: 50%;
+        font-size: 1.2em;
+    }
+
+    #info li {
+        padding: 1px;
+    }
+
+    #social-media {
+        height: 15%;
+    }
+
+    #social-media a img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}
+
+/*Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #container {
+        width: 40vw;
+        height: 90vh;
+        margin: 0 auto;
+    }
+
+    #perfil {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+
+    #foto {
+        height: 35%;
+    }
+
+    #icon-star {
+        margin-top: -170px;
+        margin-left: 5px;
+    }
+
+    #icon-star-label {
+        margin-top: -140px;
+        margin-left: 10px;
+    }
+
+    #icon-email {
+        margin-top: -90px;
+        margin-left: 10px;
+    }
+
+    #icon-email-label {
+        margin-top: -65px;
+        margin-left: 10px;
+    }
+
+    h6 {
+        font-size: 0.9em;
+    }
+
+    #info {
+        height: 50%;
+        font-size: 1.2em;
+    }
+
+    #info li {
+        padding: 1px;
+    }
+
+    #social-media {
+        height: 15%;
+    }
+
+    #social-media a img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #container {
+        height: 90vh;
+    }
+
+    #perfil {
+        width: 25vw;
+        height: 80vh;
+        margin: 0 auto;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    #foto {
+        height: 30%;
+    }
+
+    #icon-star {
+        margin-top: -190px;
+        margin-left: 7px;
+    }
+
+    #icon-star-label {
+        margin-top: -155px;
+        margin-left: 10px;
+    }
+
+    #icon-email {
+        margin-top: -100px;
+        margin-left: 10px;
+    }
+
+    #icon-email-label {
+        margin-top: -70px;
+        margin-left: 10px;
+    }
+
+    h6 {
+        font-size: 0.5em;
+    }
+
+    #info {
+        height: 55%;
+        font-size: 1.2em;
+    }
+
+    #info li {
+        margin: 0.8em;
+    }
+
+    #social-media {
+        height: 18%;
+    }
+
+    #social-media a img {
+        width: 35px;
+        height: 35px;
+        margin-right: 20px;
+    }
+}
