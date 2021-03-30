@@ -9,12 +9,12 @@ A ideia central deste projeto é praticar a confecção de páginas Web simples 
 # Projeto
 Wireframe contendo a ideia inicial do projeto:
 <br>
-<img src="https://github.com/eduardo1020/Personal-Challenges/blob/main/perfil/assets/wireframe.jpg" width=500 height=500>
+<img src="https://github.com/eduardo1020/profile/blob/main/assets/wireframe.jpg" width=500 height=500>
 <br>
 
 Design do projeto:
 <br>
-<img src="https://github.com/eduardo1020/Personal-Challenges/blob/main/perfil/assets/design%20-%20perfil.png" width=900 height=500>
+<img src="https://github.com/eduardo1020/profile/blob/main/assets/design%20-%20perfil.png" width=900 height=500>
 
 # Tecnologias utilizadas
 - HTML
